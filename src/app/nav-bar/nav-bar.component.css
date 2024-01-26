@@ -1,14 +1,23 @@
-nav ul {
-    list-style-type: none;
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    position: sticky;
+    top: 0;
+    background-color: black;
+    z-index: 1000; 
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px; /* Adjust space between links */
+    margin: 3 em;
     padding: 0;
-}
-
-nav li {
+  }
+  
+  nav li {
     display: inline;
-    margin-right: 10px;
-}
-
-nav a {
-    text-decoration: none;
-    color: #000;
-}
+  }
+  
