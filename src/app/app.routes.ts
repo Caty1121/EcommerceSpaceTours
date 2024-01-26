@@ -4,6 +4,7 @@ import { ReservationsComponent } from './reservations/reservations.component';
 import { AboutUsComponent } from './about-us/about-us.component';
 import { SpaceSuitesComponent } from './space-suites/space-suites.component';
 import { AdventuresComponent } from './adventures/adventures.component';
+import { HomeComponent } from './home/home.component';
 
 export const routes: Routes = [
     {path:'reservations', component: ReservationsComponent},
@@ -11,5 +12,6 @@ export const routes: Routes = [
     {path: 'voyages', component: VoyagesComponent},
     {path: 'aboutUs', component: AboutUsComponent},
     {path: 'adventures', component: AdventuresComponent},
-    {path: '', redirectTo: '/reservations',pathMatch:'full'}
+    {path: 'home', component: HomeComponent},
+    {path: '', redirectTo: '/home',pathMatch:'full'}
 ];

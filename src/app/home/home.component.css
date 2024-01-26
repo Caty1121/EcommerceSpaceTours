@@ -1,0 +1,6 @@
+.home-container {
+    background-image: url('/assets/starrySky.png');
+    background-size: contain;
+    background-position: center;
+    height: 100vh; 
+  }
