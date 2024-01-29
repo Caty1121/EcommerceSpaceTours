@@ -1,6 +1,39 @@
-.home-container {
+.common-background {
     background-image: url('/assets/starrySky.png');
     background-size: contain;
     background-position: center;
     height: 100vh; 
+  }
+
+
+.search-container {
+    padding-top: 25% !important;
+    text-align: center;
+    color: rgb(251, 255, 255);
+    font-family:Arial, Helvetica, sans-serif;
+  }
+  
+  .search-box {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .destination-dropdown, .date-picker {
+    padding: 10px;
+    margin-right: .2px;
+  }
+
+  .destination-dropdown {
+    border-top-left-radius: 25%;
+    border-bottom-left-radius: 25%;
+  }
+  
+  .search-button {
+    padding: 10px 20px;
+    background-color: rgb(202, 14, 223);
+    color: white;
+    cursor: pointer;
+    border-top-right-radius: 25% !important;
+    border-bottom-right-radius: 25% !important;
   }

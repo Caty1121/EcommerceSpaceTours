@@ -1,4 +1,28 @@
 <div class="common-background">
-    <app-navbar></app-navbar>
+    <div class="search-container">
+      <h1>BOOK SPACE DESTINATIONS</h1>
+      <div class="search-box">
+        <select class="destination-dropdown">
+          <option>
+            Interplanetary Eight Odyssey:
+            A full tour of the classic 8, Mercury through Neptune
+          </option>
+          <option>
+            Exoplanet Excursion:
+            The Outer-Five, Pluto and the other Dwarf planets
+          </option>
+          <option>
+            Nebula's Edge: 
+            Discover the Outer Limits of our Solar System
+          </option>
+          <option>
+            Luna Vista:
+            Dance in Moonlight, howl at the Moon, and Master the Moonwalk
+          </option>
+        </select>
+        <input type="text" class="date-picker" placeholder="Select Date">
+        <button class="search-button">SEARCH</button>
+      </div>
+    </div>  
     <ng-content></ng-content>
 </div>
