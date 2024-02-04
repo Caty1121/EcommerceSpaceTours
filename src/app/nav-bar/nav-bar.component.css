@@ -7,7 +7,7 @@ nav {
     top: 0;
     background-color: black;
     opacity: 1;
-    z-index: 1000; 
+    z-index: 1000;
   }
   
   nav ul {
@@ -19,5 +19,14 @@ nav {
   
   nav li {
     display: inline;
+
+  }
+  a {
+    color: rgb(115, 158, 151);
+    font-weight: bold;
+  }
+
+  a:visited {
+    color:rgb(155, 27, 169);
   }
   

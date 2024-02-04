@@ -1,3 +1,6 @@
+
+/*       ********** Background Image ***********      */
+
 .common-background {
     background-image: url('/assets/starrySky.png');
     background-size: contain;
@@ -5,10 +8,11 @@
     height: 100vh; 
   }
 
+  /*     ********* Flip Card Animation *********      */
 
   .flip-card {
     margin-left: 50%;
-    padding-top: 15%;
+    padding-top: 10%;
     z-index: -10;
     background-color: transparent;
     width: 400px;
@@ -49,6 +53,8 @@
     transform: rotateY(180deg);
   }
 
+/*         *********** Search Container ***********    */
+
 .search-container {
     padding-top: 10%;
     text-align: center;
@@ -59,7 +65,7 @@
   .search-box {
     display: flex;
     justify-content: center;
-    margin-top: 20px;
+    margin: 20px;
   }
   
   .destination-dropdown, .date-picker {
@@ -73,6 +79,7 @@
   .destination-dropdown {
     border-top-left-radius: 14px !important;
     border-bottom-left-radius: 14px !important;
+    font-weight: bolder;
   }
   
   .search-button {
