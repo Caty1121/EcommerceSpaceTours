@@ -6,8 +6,51 @@
   }
 
 
+  .flip-card {
+    margin-left: 50%;
+    padding-top: 15%;
+    z-index: -10;
+    background-color: transparent;
+    width: 400px;
+    height: 355px;
+    perspective: 1000px;
+  }
+  
+  .flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.7s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px 0 rgb(202, 14, 223);
+  }
+  
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+  
+  .flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+  }
+  
+  .flip-card-front {
+    background-color: #bbb;
+    color: black;
+  }
+  
+  .flip-card-back {
+    background-color: rgb(202, 14, 223);
+    color: white;
+    transform: rotateY(180deg);
+  }
+
 .search-container {
-    padding-top: 25% !important;
+    padding-top: 10%;
     text-align: center;
     color: rgb(251, 255, 255);
     font-family:Arial, Helvetica, sans-serif;
@@ -23,10 +66,13 @@
     padding: 10px;
     margin-right: .2px;
   }
-
+  .book-space-dest-title {
+    font-family: cursive;
+    }
+  
   .destination-dropdown {
-    border-top-left-radius: 25%;
-    border-bottom-left-radius: 25%;
+    border-top-left-radius: 14px !important;
+    border-bottom-left-radius: 14px !important;
   }
   
   .search-button {
@@ -34,6 +80,7 @@
     background-color: rgb(202, 14, 223);
     color: white;
     cursor: pointer;
-    border-top-right-radius: 25% !important;
-    border-bottom-right-radius: 25% !important;
+    border-top-right-radius: 14px !important;
+    border-bottom-right-radius: 14px !important;
   }
+
