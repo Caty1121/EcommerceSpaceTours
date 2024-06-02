@@ -11,12 +11,12 @@
   /*     ********* Flip Card Animation *********      */
 
   .flip-card {
-    margin-left: 50%;
+    margin-left: 38%;
     padding-top: 10%;
     z-index: -10;
     background-color: transparent;
-    width: 400px;
-    height: 355px;
+    width: 500px;
+    height: 450px;
     perspective: 1000px;
   }
   
@@ -56,17 +56,17 @@
 /*         *********** Search Container ***********    */
 
 .search-container {
-    padding-top: 10%;
+    padding-top: 2%;
     text-align: center;
     color: rgb(251, 255, 255);
     font-family:Arial, Helvetica, sans-serif;
-    padding-bottom: 40px;
+    padding-bottom: 10px;
   }
   
   .search-box {
     display: flex;
     justify-content: center;
-    margin: 20px;
+    margin: 10px;
   }
   
   .destination-dropdown, .date-picker {
